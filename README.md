@@ -35,14 +35,15 @@ Follow these steps to set up and run the project:
    ```bash
    git clone https://github.com/your-username/Network-Traffic-Anomaly-Detection.git
    cd Network-Traffic-Anomaly-Detection
-   
+   ```
 2. **Install dependencies**:
-```bash 
-
+   ```bash
+   pip install -r requirements.txt
+   ```
 3. **Run the Flask application**:
 ```bash 
-   python app.py
-   
+python app.py
+```
 4. **Open your browser and navigate to: http://127.0.0.1:5000**
    
 📊 Evaluation Metrics
@@ -62,19 +63,19 @@ Contributions are welcome! Follow these steps:
 1. **Fork the repository.**
 ```bash 
 git fork https://github.com/your-username/Network-Traffic-Anomaly-Detection.git
-
+```
 2. **Create a new branch:**
 ```bash 
 git checkout -b feature-name
-
+```
 3. **Commit your changes:**
 ```bash 
 git commit -m 'Add new feature'
-
+```
 4. **Push to the branch:**
 ```bash 
 git push origin feature-name
-
+```
 5. **Open a pull request.**
    
 📜 License
