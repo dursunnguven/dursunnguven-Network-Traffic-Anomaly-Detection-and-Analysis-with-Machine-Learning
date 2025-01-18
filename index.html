@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Tahmin Uygulaması</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flask Tahmin Uygulaması</h1>
+        <form id="predict-form">
+            <label for="features">Özellikleri girin (virgülle ayrılmış):</label>
+            <input type="text" id="features" name="features" placeholder="1.2, 3.4, 5.6, ..., 78. özellik">
+            <button type="submit">Tahmin Yap</button>
+        </form>
+        <div id="result" class="result-box"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
