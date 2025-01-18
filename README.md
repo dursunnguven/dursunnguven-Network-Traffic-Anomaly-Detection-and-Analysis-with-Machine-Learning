@@ -41,9 +41,9 @@ Follow these steps to set up and run the project:
    pip install -r requirements.txt
    ```
 3. **Run the Flask application**:
-```bash 
-python app.py
-```
+   ```bash 
+   python app.py
+   ```
 4. **Open your browser and navigate to: http://127.0.0.1:5000**
    
 📊 Evaluation Metrics
